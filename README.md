@@ -220,11 +220,6 @@ npm run dev
 
 ---
 
-## 📄 License & Contributing
-
-Distributed under the **MIT License**. See `LICENSE` for details.
-
-Contributions are welcome! Please feel free to submit a Pull Request or open an Issue for feature suggestions.
 
 ---
 
