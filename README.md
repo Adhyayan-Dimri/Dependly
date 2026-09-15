@@ -1,4 +1,4 @@
-#  Dependly — Supply Chain Risk Intelligence & Domino Simulator
+#  Dependly - Supply Chain Risk Intelligence & Domino Simulator
 
 > **Stop reacting to open-source supply chain disasters after they break production. Simulate the domino effect, visualize blast radiuses, and apply 1-click smart fixes.**
 
