@@ -1,0 +1,261 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #070B12;
+  color: #F1F5F9;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Comprehensive Light Mode Styling Override System */
+body.light-theme {
+  background-color: #F8FAFC !important;
+  color: #0F172A !important;
+  color-scheme: light;
+}
+
+body.light-theme header {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border-color: #E2E8F0 !important;
+  color: #0F172A !important;
+}
+
+body.light-theme nav {
+  background-color: #F1F5F9 !important;
+  border-color: #CBD5E1 !important;
+}
+
+/* Background Color Overrides using Attribute Wildcards */
+body.light-theme [class*="bg-[#0A0E14]"],
+body.light-theme [class*="bg-[#070B12]"],
+body.light-theme [class*="bg-[#0F172A]"],
+body.light-theme [class*="bg-[#0f172a]"],
+body.light-theme [class*="bg-slate-950"] {
+  background-color: #F8FAFC !important;
+}
+
+body.light-theme [class*="bg-[#141B26]"],
+body.light-theme [class*="bg-[#1E293B]"],
+body.light-theme [class*="bg-[#1e293b]"],
+body.light-theme [class*="bg-slate-900"] {
+  background-color: #F1F5F9 !important;
+}
+
+body.light-theme [class*="bg-[#1C2333]"],
+body.light-theme [class*="bg-[#2A364F]"],
+body.light-theme [class*="bg-[#2a364f]"],
+body.light-theme [class*="bg-slate-800"] {
+  background-color: #FFFFFF !important;
+  border-color: #E2E8F0 !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Glass Panels in Light Mode */
+body.light-theme .glass-panel {
+  background: rgba(255, 255, 255, 0.92) !important;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid #E2E8F0 !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04) !important;
+}
+
+body.light-theme .glass-panel-accent {
+  background: rgba(240, 253, 250, 0.95) !important;
+  border: 1px solid rgba(13, 148, 136, 0.3) !important;
+  box-shadow: 0 4px 20px rgba(13, 148, 136, 0.08) !important;
+}
+
+body.light-theme .glass-panel-warning {
+  background: rgba(254, 242, 242, 0.95) !important;
+  border: 1px solid rgba(239, 68, 68, 0.3) !important;
+}
+
+body.light-theme .glass-panel-success {
+  background: rgba(240, 253, 244, 0.95) !important;
+  border: 1px solid rgba(16, 185, 129, 0.3) !important;
+}
+
+/* Grid Patterns in Light Mode */
+body.light-theme .bg-grid-pattern {
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, transparent 1px) !important;
+}
+
+/* Typography & Text Overrides using Attribute Wildcards */
+body.light-theme [class*="text-[#E6EDF3]"],
+body.light-theme [class*="text-slate-100"],
+body.light-theme [class*="text-slate-200"],
+body.light-theme [class*="text-white"] {
+  color: #0F172A !important;
+}
+
+body.light-theme [class*="text-[#8B949E]"],
+body.light-theme [class*="text-slate-300"],
+body.light-theme [class*="text-slate-400"] {
+  color: #475569 !important;
+}
+
+body.light-theme [class*="text-slate-500"] {
+  color: #64748B !important;
+}
+
+/* Borders in Light Mode using Attribute Wildcards */
+body.light-theme [class*="border-[#1C2333]"],
+body.light-theme [class*="border-[#2A364F]"],
+body.light-theme [class*="border-slate-800"],
+body.light-theme [class*="border-slate-700"] {
+  border-color: #E2E8F0 !important;
+}
+
+/* Form Controls, Inputs, Modals */
+body.light-theme select,
+body.light-theme input,
+body.light-theme textarea {
+  background-color: #FFFFFF !important;
+  color: #0F172A !important;
+  border-color: #CBD5E1 !important;
+}
+
+body.light-theme input::placeholder {
+  color: #94A3B8 !important;
+}
+
+h1, h2, h3, h4, .font-heading {
+  font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Custom technical scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #070B12;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* AegisRipple Dark Luxury Editorial Glass Panels */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+}
+
+.glass-panel-accent {
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 242, 254, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(0, 242, 254, 0.08);
+}
+
+.glass-panel-warning {
+  background: rgba(24, 15, 26, 0.85);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(239, 68, 68, 0.12);
+}
+
+.glass-panel-success {
+  background: rgba(13, 27, 24, 0.85);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(16, 185, 129, 0.12);
+}
+
+/* Signal intelligence radar glow animations */
+@keyframes radar-pulse {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+}
+
+.animate-radar {
+  animation: radar-pulse 3s infinite ease-in-out;
+}
+
+@keyframes ripple-wave {
+  0% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(2.8);
+    opacity: 0;
+  }
+}
+
+.animate-ripple {
+  animation: ripple-wave 1.8s infinite cubic-bezier(0, 0.2, 0.8, 1);
+}
+
+@keyframes domino-wave {
+  0% {
+    stroke-dashoffset: 100;
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 0.5;
+  }
+}
+
+.animate-domino-link {
+  stroke-dasharray: 8 4;
+  animation: domino-wave 1.5s linear infinite;
+}
+
+/* Grid backdrop */
+.bg-grid-pattern {
+  background-size: 36px 36px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
+
+.bg-radial-gradient {
+  background: radial-gradient(circle at 50% 30%, rgba(0, 242, 254, 0.07) 0%, rgba(7, 11, 18, 0) 75%);
+}
+
+.bg-alert-gradient {
+  background: radial-gradient(circle at 50% 50%, rgba(239, 68, 68, 0.12) 0%, rgba(7, 11, 18, 0) 75%);
+}
+
+/* Tour Spotlight Overlay */
+.tour-spotlight-highlight {
+  position: relative;
+  z-index: 50;
+  box-shadow: 0 0 0 9999px rgba(3, 7, 18, 0.82), 0 0 25px rgba(0, 242, 254, 0.6);
+  border-radius: 16px;
+}
+

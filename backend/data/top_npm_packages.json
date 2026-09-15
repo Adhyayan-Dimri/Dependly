@@ -1,0 +1,19 @@
+[
+  "lodash", "express", "react", "react-dom", "axios", "moment", "chalk", "commander", 
+  "debug", "tslib", "request", "dotenv", "webpack", "typescript", "semver", "bluebird", 
+  "glob", "yargs", "minimist", "mkdirp", "fs-extra", "async", "core-js", "uuid", 
+  "jsonwebtoken", "babel-core", "body-parser", "cors", "colors", "winston", "inquirer", 
+  "cheerio", "mongoose", "ws", "socket.io", "rimraf", "rxjs", "inquirer", "cross-env", 
+  "path", "events", "util", "crypto-js", "superagent", "got", "node-fetch", "undici", 
+  "sharp", "knex", "pg", "mysql2", "redis", "ioredis", "nodemailer", "handlebars", 
+  "ejs", "mustache", "slugify", "validator", "class-validator", "zod", "joi", "yup", 
+  "dayjs", "date-fns", "luxon", "ramda", "immutable", "immer", "redux", "mobx", 
+  "next", "nuxt", "gatsby", "vue", "svelte", "angular", "postcss", "autoprefixer", 
+  "tailwindcss", "sass", "less", "styled-components", "emotion", "playwright", "puppeteer", 
+  "jest", "mocha", "chai", "sinon", "cypress", "eslint", "prettier", "ts-node", 
+  "nodemon", "pm2", "dotenv-safe", "cross-spawn", "execa", "ora", "cli-progress", 
+  "fast-glob", "chokidar", "chownr", "tar", "archiver", "adm-zip", "yaml", "xml2js", 
+  "dotenv-expand", "pino", "morgan", "helmet", "passport", "bcrypt", "argon2", 
+  "jsonwebtoken", "cookie-parser", "express-session", "multer", "formidable", 
+  "axios-retry", "p-limit", "p-queue", "p-retry", "rxjs", "nanoid", "mime-types"
+]

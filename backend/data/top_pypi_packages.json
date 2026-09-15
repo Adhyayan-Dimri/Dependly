@@ -1,0 +1,16 @@
+[
+  "requests", "urllib3", "numpy", "pandas", "flask", "django", "pytest", "six", 
+  "boto3", "setuptools", "pip", "certifi", "idna", "pyyaml", "cryptography", 
+  "scipy", "pydantic", "fastapi", "tqdm", "click", "jinja2", "markupsafe", 
+  "attrs", "rsa", "pyasn1", "wheel", "virtualenv", "packaging", "colorama", 
+  "jsonschema", "chardet", "charset-normalizer", "typing-extensions", "greenlet", 
+  "sqlalchemy", "alembic", "psycopg2", "psycopg2-binary", "pymongo", "redis", 
+  "celery", "httpx", "aiohttp", "starlette", "uvicorn", "gunicorn", "rich", 
+  "black", "flake8", "mypy", "isort", "pillow", "opencv-python", "matplotlib", 
+  "seaborn", "scikit-learn", "torch", "torchvision", "torchaudio", "tensorflow", 
+  "transformers", "huggingface-hub", "langchain", "openai", "anthropic", 
+  "paramiko", "fabric", "ansible", "boto", "google-cloud-storage", "google-api-python-client", 
+  "awscli", "botocore", "s3transfer", "docker", "kubernetes", "pytz", "python-dateutil", 
+  "arrow", "pendulum", "lxml", "beautifulsoup4", "html5lib", "scrapy", "playwright", 
+  "selenium", "joblib", "threadpoolctl", "openpyxl", "xlrd", "xlsxwriter"
+]
