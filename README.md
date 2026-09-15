@@ -1,8 +1,8 @@
-# 🛡️ Dependly — Supply Chain Risk Intelligence & Domino Simulator
+#  Dependly — Supply Chain Risk Intelligence & Domino Simulator
 
 > **Stop reacting to open-source supply chain disasters after they break production. Simulate the domino effect, visualize blast radiuses, and apply 1-click smart fixes.**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688.svg?logo=fastapi)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/Frontend-React_18-61DAFB.svg?logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6.svg?logo=typescript)](https://www.typescriptlang.org/)
@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Table of Contents
+##  Table of Contents
 - [Executive Overview](#-executive-overview)
 - [The Problem: Supply Chain Jenga Effect](#-the-problem-supply-chain-jenga-effect)
 - [Core Features](#-core-features)
@@ -32,7 +32,7 @@
 
 ---
 
-## 💡 Executive Overview
+##  Executive Overview
 
 Modern software applications are built like **towers of Jenga blocks**. Over **80% of code** in modern enterprise applications consists of third-party open-source packages. While developers explicitly import direct dependencies (e.g., `express`, `requests`), those packages silently pull in hundreds of **transitive dependencies** (e.g., `semver`, `qs`, `urllib3`, `lodash`).
 
@@ -45,23 +45,23 @@ Traditional vulnerability scanners overwhelm engineering teams with raw security
 
 ---
 
-## ⚠️ The Problem: Supply Chain Jenga Effect
+##  The Problem: Supply Chain Jenga Effect
 
 ```
-[ Your Production Fintech App ] 💥 CRASHED ($45,000 / hr downtime)
+[ Your Production Fintech App ]  CRASHED ($45,000 / hr downtime)
               ▲
               │ (Direct Import)
    [ jsonwebtoken v9.0.0 ]
               ▲
               │ (Transitive Propagation)
-     [ semver v7.5.0 ]  🔥 PATIENT ZERO (CVE-2023-38325 ReDoS Flaw)
+     [ semver v7.5.0 ]   PATIENT ZERO (CVE-2023-38325 ReDoS Flaw)
 ```
 
 A tiny vulnerability in a 4th-degree transitive package can ripple upward through session middleware, authentication gateways, and API microservices until production revenue crashes. Dependly pinpoints **Patient Zero**, tracks the **Ripple Wave**, quantifies the **Downtime Cost**, and delivers a **1-Click Smart Fix**.
 
 ---
 
-## 🔥 Core Features
+##  Core Features
 
 ### 1. Domino Impact Simulator
 - **Patient Zero Identification**: Automatically isolates the root vulnerable package deep in your dependency tree.
@@ -96,7 +96,7 @@ A tiny vulnerability in a 4th-degree transitive package can ripple upward throug
 
 ---
 
-## 🏗️ System Architecture & Data Flow
+##  System Architecture & Data Flow
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
@@ -118,7 +118,7 @@ A tiny vulnerability in a 4th-degree transitive package can ripple upward throug
 
 ---
 
-## 📂 Directory Structure
+##  Directory Structure
 
 ```text
 Dependly/
@@ -149,7 +149,7 @@ Dependly/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - **Python**: `3.10` or higher
